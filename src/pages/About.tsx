@@ -7,6 +7,7 @@ import { Award, Users, Heart, Star } from "lucide-react";
 
 import heroImage from "@/assets/hero-wedding.jpg";
 import mcImage from "@/assets/wedding-mc.jpg";
+import PreetSiyaanPotrait3 from "@/assets/PreetSiyaanPotrait3.jpeg";
 
 const AboutPage = () => {
   return (
@@ -48,7 +49,7 @@ const AboutPage = () => {
               >
                 <div className="relative rounded-2xl overflow-hidden shadow-elegant">
                   <img
-                    src={mcImage}
+                    src={PreetSiyaanPotrait3}
                     alt="Preet Siyaan - Founder of PS Entertainment"
                     className="w-full h-[500px] object-cover"
                   />

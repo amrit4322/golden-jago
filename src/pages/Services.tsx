@@ -14,6 +14,7 @@ import mcImage from "@/assets/wedding-mc.jpg";
 import mehndiImage from "@/assets/mehndi-ceremony.jpg";
 import turbanImage from "@/assets/turban-tying.jpg";
 import hinduImage from "@/assets/hindu-wedding.jpg";
+import WeddingHostPS from "@/assets/WeddingHostPS.jpeg";
 
 const services = [
   {
@@ -89,7 +90,7 @@ const services = [
       "Crowd engagement specialist",
       "Seamless event coordination",
     ],
-    image: mcImage,
+    image: WeddingHostPS,
   },
   {
     id: "entry",
@@ -121,36 +122,36 @@ const services = [
     ],
     image: mehndiImage,
   },
-  {
-    id: "hindu",
-    icon: Heart,
-    title: "Hindu Wedding Ritual Support",
-    subtitle: "Traditional Ceremony Assistance",
-    description:
-      "We provide comprehensive support for Hindu wedding ceremonies, ensuring traditional rituals are conducted smoothly with proper music, announcements, and coordination with the pandit.",
-    features: [
-      "Ceremony music curation",
-      "Ritual announcements",
-      "Pandit coordination",
-      "Traditional ambiance setup",
-    ],
-    image: hinduImage,
-  },
-  {
-    id: "turban",
-    icon: Crown,
-    title: "Traditional Turban Tying",
-    subtitle: "Safa / Pagri Services",
-    description:
-      "Complete your groom's look with expertly tied traditional turbans. Our skilled turban specialists create beautiful safas and pagris in various styles to match your wedding theme.",
-    features: [
-      "Multiple turban styles",
-      "Color matching with attire",
-      "Quick & professional service",
-      "Traditional & modern designs",
-    ],
-    image: turbanImage,
-  },
+  // {
+  //   id: "hindu",
+  //   icon: Heart,
+  //   title: "Hindu Wedding Ritual Support",
+  //   subtitle: "Traditional Ceremony Assistance",
+  //   description:
+  //     "We provide comprehensive support for Hindu wedding ceremonies, ensuring traditional rituals are conducted smoothly with proper music, announcements, and coordination with the pandit.",
+  //   features: [
+  //     "Ceremony music curation",
+  //     "Ritual announcements",
+  //     "Pandit coordination",
+  //     "Traditional ambiance setup",
+  //   ],
+  //   image: hinduImage,
+  // },
+  // {
+  //   id: "turban",
+  //   icon: Crown,
+  //   title: "Traditional Turban Tying",
+  //   subtitle: "Safa / Pagri Services",
+  //   description:
+  //     "Complete your groom's look with expertly tied traditional turbans. Our skilled turban specialists create beautiful safas and pagris in various styles to match your wedding theme.",
+  //   features: [
+  //     "Multiple turban styles",
+  //     "Color matching with attire",
+  //     "Quick & professional service",
+  //     "Traditional & modern designs",
+  //   ],
+  //   image: turbanImage,
+  // },
 ];
 
 const ServicesPage = () => {
@@ -196,15 +197,13 @@ const ServicesPage = () => {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.6, delay: 0.1 }}
-                  className={`grid grid-cols-1 lg:grid-cols-2 gap-12 items-center ${
-                    index % 2 === 1 ? "lg:flex-row-reverse" : ""
-                  }`}
+                  className={`grid grid-cols-1 lg:grid-cols-2 gap-12 items-center ${index % 2 === 1 ? "lg:flex-row-reverse" : ""
+                    }`}
                 >
                   {/* Image */}
                   <div
-                    className={`relative ${
-                      index % 2 === 1 ? "lg:order-2" : ""
-                    }`}
+                    className={`relative ${index % 2 === 1 ? "lg:order-2" : ""
+                      }`}
                   >
                     <div className="relative rounded-2xl overflow-hidden shadow-elegant">
                       <img
@@ -216,9 +215,8 @@ const ServicesPage = () => {
                     </div>
                     {/* Decorative element */}
                     <div
-                      className={`absolute -z-10 w-full h-full rounded-2xl bg-gold/20 top-4 ${
-                        index % 2 === 1 ? "-left-4" : "-right-4"
-                      }`}
+                      className={`absolute -z-10 w-full h-full rounded-2xl bg-gold/20 top-4 ${index % 2 === 1 ? "-left-4" : "-right-4"
+                        }`}
                     />
                   </div>
 

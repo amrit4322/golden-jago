@@ -81,11 +81,11 @@ const Footer = () => {
             <ul className="space-y-4">
               <li>
                 <a
-                  href="tel:+61000000000"
+                  href="tel:+61422542030"
                   className="flex items-center gap-3 text-primary-foreground/80 hover:text-gold transition-colors"
                 >
                   <Phone className="w-4 h-4 text-gold" />
-                  <span>+61 000 000 000</span>
+                  <span>+61 422 542 030</span>
                 </a>
               </li>
               <li>
@@ -106,7 +106,7 @@ const Footer = () => {
             {/* Social Links */}
             <div className="flex gap-4 mt-6">
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/jagowithpreetsiyaan/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full border border-gold/50 flex items-center justify-center text-gold hover:bg-gold hover:text-primary transition-all duration-300"
